@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "1DB2932B-0DB2-4486-8D62-562DE3D5BC85",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:JoynCodeChallenge.xcodeproj",
+      "identifier" : "E8FA09DB2A751FA700D641BD",
+      "name" : "JoynCodeChallenge"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:JoynCodeChallenge.xcodeproj",
+        "identifier" : "E8FA09EB2A751FA900D641BD",
+        "name" : "JoynCodeChallengeTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:JoynCodeChallenge.xcodeproj",
+        "identifier" : "E8FA09F52A751FA900D641BD",
+        "name" : "JoynCodeChallengeUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
